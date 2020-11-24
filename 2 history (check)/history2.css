@@ -1,0 +1,414 @@
+@font-face {
+    font-family: "NunitoSans";
+    src: url(NunitoSans.ttf) format("truetype");
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5;
+    font-style: normal; 
+    font-family: NunitoSans;
+    /* overflow: hidden; */
+}
+
+.header {
+    height: 140px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 20px;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.aside1 {
+    margin-bottom: 19px;
+    height: 678px;
+    width: 270px;
+    margin-right: 2%;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
+
+.aside2 {
+    height: 678px;
+    width: 850px;
+    margin-bottom: 20px;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
+
+.right-bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    position: relative;
+    background: #6379F4;;
+    height: 80px;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(239, 239, 239, 0.9);
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    position: absolute;
+    right: 8%;
+    top: 25%;
+}
+
+.user-profile {
+    margin-left: 10px;
+}
+
+.bell {
+    margin-left: 10px;
+}
+
+h1 {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    font-weight: bold;
+    font-size: 29px;
+    color: #6379F4;
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+    padding: 0%;
+    height:100%;
+}
+
+ul {
+    position: absolute;
+    top: 3%;
+    font-weight: bold;
+    font-size: 18px;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    margin-bottom: 25%;
+}
+
+nav ul li a{
+    width: 100%;
+    padding-left: 10%;
+}
+
+.log-out {
+    margin-top: 100%;
+}
+
+
+
+#dashboard, #transfer, #topup, #profile, #logout {
+    margin-left: 10px;
+}
+
+.a-dashboard {
+    border-left: 5px solid #6379F4;
+}
+
+#dashboard {
+    font-weight: bold;
+    font-size: 18px;
+    color: #6379F4;
+}
+
+#transfer, #topup, #profile, #logout {
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(58, 61, 66, 0.8);
+}
+
+.copyright{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+.contact-number {
+    position: absolute;
+    top: 35%;
+    right: 5%;
+}
+
+.contact-email {
+    margin-left: 50px;
+
+}
+
+.title {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    font-weight: bold;
+    font-size: 18px;
+    color: #3A3D42;
+}
+
+.time1 {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    font-weight: normal;
+    font-size: 16px;
+    color: #7A7886;
+
+}
+
+.time2 {
+    position: absolute;
+    left: 5%;
+    top: 55%;
+    font-weight: normal;
+    font-size: 16px;
+    color: #7A7886;
+}
+
+.profile {
+    margin-left: 20px;
+}
+
+.name  {
+    font-weight: bold;
+    font-size: 16px;
+    color: #4D4B57;
+}
+
+.info {
+    font-weight: normal;
+    font-size: 14px;
+    color: #7A7886;
+}
+
+.history1 .amount {
+    font-weight: bold;
+    font-size: 16px;
+    color: #1EC15F;
+}
+
+.history2 .amount {
+    font-weight: bold;
+    font-size: 16px;
+    color: #FF5B37;
+}
+
+.history3 .amount {
+    font-weight: bold;
+    font-size: 16px;
+    color: #1EC15F;
+}
+
+.history4 .amount {
+    font-weight: bold;
+    font-size: 16px;
+    color: #FF5B37;
+}
+
+
+.history1 .amount {
+    position: absolute;
+    right: 5%;
+    top: 25%;
+}
+
+.history1 .history-info {
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    display: flex;
+    flex-direction: row;
+}
+
+.history2 .amount {
+    position: absolute;
+    right: 5%;
+    top: 40%;
+}
+
+.history2 .history-info {
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    display: flex;
+    flex-direction: row;
+}
+
+.history3 .amount {
+    position: absolute;
+    right: 5%;
+    top: 65%;
+}
+
+.history3 .history-info {
+    position: absolute;
+    left: 5%;
+    top: 65%;
+    display: flex;
+    flex-direction: row;
+}
+.history4 .amount {
+    position: absolute;
+    right: 5%;
+    top: 80%;
+}
+
+.history4 .history-info {
+    position: absolute;
+    left: 5%;
+    top: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+@media screen and (max-width: 1199px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    
+    .aside1 {
+        flex-grow: 1;
+        margin-left: 0;
+        margin-right: 0;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .right {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .aside2 {
+        width: 100%;
+    }
+
+    .log-out {
+        margin-top:0%;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;        
+    }
+    .a-dashboard {
+        border-left: 0;
+        border-bottom: 5px solid #6379F4;
+    }
+
+    li {
+        width:20%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    a{
+        padding-top: 6%;
+        padding-left: 5%;
+        height: 100%;
+    
+    }
+
+    .header {
+        margin-bottom: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 991px) {
+    #dashboard, #transfer, #topup, #profile, #logout {
+        display: none;
+    } 
+    nav ul li a{
+        padding-left: 30%;  
+         
+    }
+
+    ul {
+        top: 5%;  
+    }
+}
+    
+@media screen and (max-width: 767px) {
+    .copyright{
+        position: absolute;
+        top: 10%;
+        left: 5%;
+    }
+    
+    .contact-number {
+        position: absolute;
+        top: 40%;
+        left: 5%;
+    }
+    
+    .contact-email {
+        margin-left: 50px;
+    
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .contact-email {
+        margin-left: 0;
+    }
+
+    .user-profile {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .history1 .amount {
+        left: 90px;
+        top: 31%;
+    }
+
+    .history2 .amount {
+        left: 90px;
+        top: 46%;
+    }
+
+    .history3 .amount {
+        left: 90px;
+        top: 71%;
+    }
+
+    .history4 .amount {
+        left: 90px;
+        top: 86%;
+    }
+
+}
+    
+
